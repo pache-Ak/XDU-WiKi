@@ -17,7 +17,7 @@
   
 
   
-    <title>开始 | XDU-WiKI</title>
+    <title>XDU-WiKI</title>
   
 
   
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/default.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pygments-rouge-css@0.1.0/vs.min.css">
-  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="./css/theme.css">
   
   
   
@@ -75,8 +75,6 @@
               
               
               
-              <button class="btn btn-outline-secondary" onclick="toggle_toc(this);" type="button" data-bs-toggle="collapse" data-bs-target="#tol"><i class="bi bi-list-ul"></i></button>
-              
               
           </div>
           </p>
@@ -95,11 +93,11 @@
         <ul class="list-group list-group-flush">
         
         
-        <li class="list-group-item"><a class="text-decoration-none  text-body" href=".">开始</a></li>
+        <li class="list-group-item"><a class="text-decoration-none  text-muted" href="./.">开始</a></li>
         
         
         
-        <li class="list-group-item"><a class="text-decoration-none  text-muted" href="about/">关于</a></li>
+        <li class="list-group-item"><a class="text-decoration-none  text-muted" href="./about/">关于</a></li>
         
         
       </ul>
@@ -107,98 +105,65 @@
     </div>
     
        
-    
-    
-    
-    <div class="col-12 col-md-2 order-md-3 print-hide">
-      <div class="collapse d-md-block text-nowrap" id="tol"  style="overflow-x:scroll;">
-        <span>目次</span>
-         <hr/>
-        <ul class="list-group list-group-flush">
-        
-        <li class="list-group-item"><a class="text-decoration-none text-muted" href="#_1" >欢迎</a>
-          
-          </li>
-        
-      </ul>
-      </div>
-    </div>
-    
-    
-    <div class="col-12 col-md-8 print-main">
+
+
+
+
+
+
+<div class="col-12 col-md-8">
+<h1>XDU-WiKIについて</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">このサイトに関する統計情報</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">サイト名</th>
+        <td>XDU-WiKI</td>
+      </tr>
+      <tr>
+        <th scope="row">記事の総数</th>
+        <td>3</td>
+      </tr>
+      <tr>
+        <th scope="row">サイトの最終更新日(UTC)</th>
+        <td>2023-05-21 14:54:31.399280+00:00</td>
+      </tr>
       
-      <h1>开始</h1>
       
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item active" aria-current="page">XDU-WiKI</li>
-        
-        
-        <li class="breadcrumb-item active" aria-current="page">开始</li>
-        
-        
-        
-        
-        
-      </ol>
-    </nav>
-    
-    
-    <div class="d-flex justify-content-between">
-      <div>
-        
-        <a class="btn text-muted print-hide"><i class="bi bi-chevron-left"></i></a>
-        
-        
-        <a class="btn text-primary print-hide" href="about/" title="关于"><i class="bi bi-chevron-right"></i></a>
-        
-      </div>
-      <div>
-        <div>
-          
-          
-          
-          
-          
-          
-          <button class="btn print-block" title="このページを印刷" onclick="window.print();"><i class="bi bi-printer"></i></button>
-          <button class="btn print-visible d-none" onclick="print_normal();" title="新しいタブで開く"><i class="bi bi-arrow-up-right-square"></i></button>
-          
-          
-          <a class="btn disabled print-hide"><i class="bi bi-pencil"></i></a>
-          
-          <span class="dropdown print-hide">
-            <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><button class="btn dropdown-item" onclick="share_to_twitter('开始 | XDU-WiKI');"><i class="bi bi-twitter"></i>&nbsp;Twitter</button></li>
-              <li><button class="btn dropdown-item" onclick="share_to_facebook();"><i class="bi bi-facebook"></i>&nbsp;Facebook</button></li>
-              <li><button class="btn dropdown-item" onclick="print_view();"><i class="bi bi-file-earmark-text"></i>&nbsp;埋込モードで表示</button></li>
-              <li><button class="btn dropdown-item" onclick="page_copy_btn_clicked(this);"><i class="bi bi-clipboard"></i>&nbsp;URLをコピー</button></li>
-            </ul>
-          </span>
-          
-        </div>
-      </div>
+      <tr>
+        <th scope="row">Lantanaのバージョン</th>
+        <td>WSOFT Lantana v2.6.2(tapioca)</td>
+      </tr>
+      <tr>
+        <th scope="row">MkDocsのバージョン</th>
+        <td>1.4.3</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="card">
+    <div class="card-body">
+      <p>Lantana</p>
+      <p>Copyright 2022 WSOFT. All rights reserved.</p>
+      <p>Lantanaは<a href="https://www.mkdocs.org/">MkDocs</a>やその他のオープンソース ソフトウェアによって実現しました。</p>
+      <p><a href="https://lantana.wsoft.ws/">Lantanaのホームページ</a>/<a href="https://github.com/WSOFT-Project/lantana">GitHubリポジトリ</a>/<a href="https://wsoft.ws/">WSOFTのサイト</a></p>
     </div>
-    <hr/>
-    
-    
-      <h1 id="_1">欢迎</h1>
-<p>欢迎访问XDU-WiKi！，本项目旨在整合XDU内部的校园资源，为西电的学生们提供生活和学习上的指导，欢迎任何同学PR~  </p>
-<p>如果你有任何疑问与建议，请联系:panduyi_azula@foxmail.com</p>
-    
-    
+  </div>
+</div>
 
       </div>
       </div>
-      <script src="js/theme.js"></script>
+      <script src="./js/theme.js"></script>
       
       <script>
         linkToNewTab("None");
       </script>
       
       
-    <script async src="search/main.js"></script>
+    <script async src="./search/main.js"></script>
       
       
       <script>
