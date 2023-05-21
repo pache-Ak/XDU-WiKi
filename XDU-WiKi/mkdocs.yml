@@ -1,0 +1,6 @@
+site_name: XDU-WiKI
+nav:
+    - 开始: index.md
+    - 关于: about.md
+theme:
+  name: material
